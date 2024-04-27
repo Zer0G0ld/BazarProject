@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-
     <title>Bazar</title>
 </head>
-
 <body>
     <header>
         <h1>Bazar</h1>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Masculino</a></li>
-            <li><a href="#">Feminino</a></li>
-            <li><a href="#">Infantil</a></li>
-            <li><a href="#">Contatos</a></li>
-        </ul>
-        <form class="search-form">
-            <input type="text" placeholder="Pesquisar">
-            <button type="submit">Buscar</button>
-        </form>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Masculino</a></li>
+                <li><a href="#">Feminino</a></li>
+                <li><a href="#">Infantil</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+            <form class="search-form">
+                <input type="text" placeholder="Pesquisar">
+                <button type="submit">Buscar</button>
+            </form>
+        </nav>
     </header>
     <main>
         <section class="featured-products">
@@ -41,7 +40,6 @@
                 <span class="price">R$ 79,99</span>
                 <button>Adicionar ao Carrinho</button>
             </div>
-            <!-- Adicione mais produtos em destaque conforme necessário -->
         </section>
         <section class="new-arrivals">
             <h2>Novidades</h2>
@@ -63,9 +61,18 @@
         </section>
     </main>
     <footer>
-        <div class="conteiner">
+        <div class="container">
             <p>&copy; 2024 Bazar</p>
-            <ul>
+            <div class="social-media">
+                <p>Siga-nos nas redes sociais:</p>
+                <ul>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="img/instagram.png" alt="Instagram"></a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="img/tik-tok.png" alt="TikTok"></a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="img/youtube.png" alt="YouTube"></a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="img/spotify.png" alt="Spotify"></a></li>
+                </ul>
+            </div>
+            <ul class="footer-links">
                 <li><a href="#">Sobre Nós</a></li>
                 <li><a href="#">Política de Privacidade</a></li>
                 <li><a href="#">Termos de Uso</a></li>
@@ -74,5 +81,4 @@
     </footer>
     <script src="js/script.js"></script>
 </body>
-
 </html>
