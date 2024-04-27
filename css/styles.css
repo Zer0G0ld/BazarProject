@@ -16,6 +16,13 @@ body {
     padding: 0;
 }
 
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: var(--white);
+}
+
 /* Estilos para o cabeçalho */
 header {
     background-color: var(--green);
@@ -70,10 +77,80 @@ main {
     padding: var(--spacing);
 }
 
+#featured {
+    background-color: var(--blank);
+    padding: 60px 0;
+}
+
+.product {
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.product h3 {
+    font-size: 24px;
+    color: var(--black);
+    margin-bottom: 10px;
+}
+
+.product .price {
+    font-size: 20px;
+    color: var(--green);
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: var(--green);
+    color: var(--black);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
 /* Estilos para o rodapé */
 footer {
     background-color: var(--green);
     color: var(--blank);
     padding: var(--spacing);
     text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 0;
+}
+
+footer ul {
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    font-size: 14px;
+    color: var(--blank);
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: var(--black);
 }
