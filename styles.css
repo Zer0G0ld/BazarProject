@@ -1,0 +1,79 @@
+:root {
+    --green: #7e9441;
+    --blank: #f6e7d2;
+    --black: #000000;
+    --blackrot: #333333;
+    --white: #ffffff;
+
+    --spacing: 20px; /* Espaçamento padrão */
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--blank);
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: var(--green);
+    color: var(--blank);
+    padding: var(--spacing);
+}
+
+/* Estilos para a navegação */
+header nav {
+    background-color: var(--blackrot);
+    color: var(--blank);
+    padding: var(--spacing) 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: var(--spacing);
+}
+
+/* Estilos para os links na navegação */
+header nav ul li a {
+    color: var(--blank);
+    text-decoration: none;
+}
+
+/* Estilos para o formulário de pesquisa na navegação */
+.search-form {
+    display: inline-block;
+}
+
+.search-form input[type="text"] {
+    padding: 5px;
+    border: 1px solid var(--black);
+}
+
+.search-form button {
+    padding: 5px 10px;
+    background-color: var(--green);
+    border: none;
+    color: var(--blank);
+    cursor: pointer;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: var(--spacing);
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: var(--green);
+    color: var(--blank);
+    padding: var(--spacing);
+    text-align: center;
+}
